@@ -1,0 +1,44 @@
+.form {
+    position: relative;
+  }
+  
+  .form i.fa-search,
+  .form i.fa-microphone {
+    color: white;
+  }
+  
+  .form i.fa-search:hover,
+  .form i.fa-microphone:hover {
+    color: #bdc1c6;
+  }
+  
+  .form-input {
+    width: 100%;
+    height:50px;
+    padding-right: 30px; /* Adjust the padding based on your icon size */
+    border-radius: 30px;
+    margin-left: 50px;
+    background-color: #202124;
+    border: 0.1px solid white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-input:hover {
+    background-color: grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .left-pan {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .left-pan i.fa-microphone {
+    margin-right: 10px; /* Adjust the margin based on your layout */
+  }
+  
+  .left-pan i.fa-microphone:hover {
+    color: #bdc1c6;
+  }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Logo from './Logo';
 import SearchBar from './SearchBar';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,8 +9,7 @@ function App() {
     <div className="App d-flex flex-column min-vh-100">
       <Header />
       <div className="d-flex flex-column align-items-center flex-grow-1 logo">
-        <Logo />
-        <SearchBar />
+        <SearchBar/>
       </div>
       <Footer className="fixed-bottom" />
     </div>

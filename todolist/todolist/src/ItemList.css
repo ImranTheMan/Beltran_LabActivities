@@ -1,0 +1,24 @@
+/* ItemList.css */
+
+.item-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-name {
+    margin-left: 10px;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  

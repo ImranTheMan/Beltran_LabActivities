@@ -1,29 +1,22 @@
-import React, { useState } from 'react';
-import './App.css';
+import React from "react";
 
-const Footer = () => {
-  // Step 2: Add state for the toggle switch
-  const [toggleSwitch, setToggleSwitch] = useState(false);
-
-  // Step 3: Create a function to handle the toggle switch state
-  const handleToggleSwitch = () => {
-    setToggleSwitch(!toggleSwitch);
-  };
-  
-
+const Footer = ({ toggleSwitch, handleToggleSwitch }) => {
   return (
     <footer className="footer">
       <div className="footer-top">
         <p>Philippines</p>
-        
-        
-        <div className="toggle-switch" style={{ float: 'right' }}>
+
+        <div className="toggle-switch" style={{ float: "right" }}>
           <label className="switch">
-            <input type="checkbox" checked={toggleSwitch} onChange={handleToggleSwitch} />
+            <input
+              type="checkbox"
+              checked={toggleSwitch}
+              onChange={handleToggleSwitch}
+            />
             <span className="slider"></span>
           </label>
         </div>
-      </div> 
+      </div>
       <div className="footer-bottom">
         <div className="footer-bottom-left">
           <span className="footer-link">About</span>
